@@ -38,7 +38,7 @@ function draw() {
 
 
 function getColors(A, B){
-        const theta_spacing = 0.07;
+        const theta_spacing = 0.02;
         const phi_spacing = 0.02;
     
     
