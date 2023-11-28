@@ -1,90 +1,207 @@
-# art.studio template
+<div align="center">
+  <br>
 
-### Note
+  <a href="https://github.com/jeffreytse/jekyll-theme-yat">
+    <img alt="jekyll-theme-yat →~ jekyll" src="https://user-images.githubusercontent.com/9413601/106478481-346fdf00-64e4-11eb-9385-1ab5329c3234.png" width="600">
+  </a>
 
-The `docs` folder is for demo purposes only.
+  <h1>JEKYLL YAT THEME</h1>
 
-Changes should be commited to `src/` files only.
+</div>
 
-### How to use
+<h4 align="center">
+  <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
+</h4>
 
-The template is built with Sass and Gulp build system with these features:
+<p align="center">
+  <a href="https://jeffreytse.github.io/jekyll-theme-yat">
+    <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg"
+      alt="Github Pages" />
+  </a>
 
--	Handlebars HTML templates with Panini– Panini is a super simple flat file generator for use with Gulp. It compiles a series of HTML pages using a common layout. These pages can also include HTML partials, external Handlebars helpers, or external data as JSON.
--	Sass compilation, prefixing with Autoprefixer, and JavaScript concatenation
--	Built-in BrowserSync server - Will automatically reload your page when files are changed. It also live-injects CSS changes when you save a Sass file. This task runs continuously. Defaults to localhost. 
--	For production builds - CSS compression, JavaScript compression, Image compression and more..
+  <a href="https://badge.fury.io/rb/jekyll-theme-yat">
+    <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"
+      alt="Gem Version" />
+  </a>
 
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg"
+      alt="License: MIT" />
+  </a>
 
-### Requirements
+  <a href="https://liberapay.com/jeffreytse">
+    <img src="https://img.shields.io/liberapay/goal/jeffreytse.svg?logo=liberapay"
+      alt="Donate (Liberapay)" />
+  </a>
 
-To use this template, your computer needs:
+  <a href="https://patreon.com/jeffreytse">
+    <img src="https://img.shields.io/badge/support-patreon-F96854.svg?style=flat-square"
+      alt="Donate (Patreon)" />
+  </a>
 
--	Node.js is used to run the build processes. https://nodejs.org/en/download/
--   Test: run ` node -v ` in the terminal
--	Npm (Node comes with npm installed so you should have a version of npm.) Used to manage development dependencies.
--   Test: run ` npm -v`  in the terminal
--	Gulp – task runner
-	`npm install -g gulp`
--	Test: run `gulp -v ` in the terminal
+  <a href="https://ko-fi.com/jeffreytse">
+  <img height="20" src="https://www.ko-fi.com/img/githubbutton_sm.svg"
+  alt="Donate (Ko-fi)" />
+  </a>
+</p>
 
-### Installing:
+<div align="center">
+  <sub>Built with ❤︎ by
+  <a href="https://jeffreytse.net">jeffreytse</a> and
+  <a href="https://github.com/jeffreytse/jekyll-theme-yat/graphs/contributors">contributors </a>
+  </sub>
+</div>
 
-- Clone this repo: `git clone https://github.com/johndavemanuel/bootstrap-gulp-starter-template.git`
-- Navigate into the repo directory: `cd bootstrap-gulp-starter-template`
-- Install all node packages: `npm install`
-- Run `gulp dev`
-- Your site is now viewable at this URL: http://localhost:3000
-- To create compressed, production-ready assets run `gulp prod`. This will delete everything in the dist folder and recreate all of your complied files. Never make updates directly into the dist folder as these files get overridden each time. Note: The dist folder is not kept in source control.
+<br>
 
+Hey, nice to meet you, you found this [Jekyll][jekyll] theme. Here the
+_YAT (Yet Another Theme)_ is a modern responsive theme. It's quite
+clear, clean and neat for writers and posts. **If you are an elegant
+writer and focus on content, don't miss it.**
 
-### Folder Structure:
+<p align="center">
+Like this elegant theme? You can give it a star or sponsor me!<br>
+I will respect your crucial support and say THANK YOU!
+</p>
 
-- `dist/` - compiled distribution files
-- `node_modules` - front-end dependencies
-- `src/` - contains all of your core, working files—static assets, pages, templates, etc
-- `src/assets/` - scss files, JS files, images, and fonts are here
-- `src/data/` - external data
-- `src/layouts/` - HTML layouts templates
-- `src/pages/` - site pages
-- `src/partials/` - handlebars partials files.
-- `gulpfile.js` - all task definitions
-- `package.json` - handles the front-end dependencies
-- `.htmllintrc` - handles the HTML lint rules
-- `.sass-lint.yml` - handles the SCSS lint rules
-- `reports` - txt generated file for accessibility issues
+<p align="center">
 
-### Gulp Plugins:
-- [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
-- [gulp-compile-handlebars](https://www.npmjs.com/package/gulp-compile-handlebars)
-- [gulp-concat](https://www.npmjs.com/package/gulp-concat)
-- [gulp-cssmin](https://www.npmjs.com/package/gulp-cssmin)
-- [gulp-html-replace](https://www.npmjs.com/package/gulp-html-replace)
-- [gulp-htmllint](https://www.npmjs.com/package/gulp-htmllint)
-- [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)
-- [gulp-pretty-html](https://www.npmjs.com/package/gulp-pretty-html)
-- [gulp-remove-code](https://www.npmjs.com/package/gulp-remove-code)
-- [gulp-remove-logging](https://www.npmjs.com/package/gulp-remove-logging)
-- [gulp-rename](https://www.npmjs.com/package/gulp-rename)
-- [gulp-sass](https://www.npmjs.com/package/gulp-sass)
-- [node-bourbon](https://www.npmjs.com/package/node-bourbon)
-- [gulp-sass-lint](https://www.npmjs.com/package/gulp-sass-lint)
-- [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps)
-- [gulp-uglify](https://www.npmjs.com/package/gulp-uglify)
-- [gulp-newer](https://www.npmjs.com/package/gulp-newer)
-- [gulp-accessibility](https://www.npmjs.com/package/gulp-accessibility)
-- [gulp-jshint](https://www.npmjs.com/package/gulp-jshint)
-- [gulp-gulp-gh-pages](https://www.npmjs.com/package/gulp-gh-pages)
-- [gulp-babel](https://www.npmjs.com/package/gulp-babel)
-- [panini](https://www.npmjs.com/package/panini)
-- [run-sequence](https://www.npmjs.com/package/run-sequence)
-- [ansi-colors](https://www.npmjs.com/package/ansi-colors)
-- [fancy-log](https://www.npmjs.com/package/fancy)
+  <img src="https://user-images.githubusercontent.com/9413601/91842897-6a840b00-ec87-11ea-95ca-52abcc1ac063.png" alt="demo-screenshot" width="100%"/>
 
+</p>
 
-### Additional Resources:
-- [Sass: Syntactically Awesome Style Sheets](http://sass-lang.com/)
-- [Bootstrap](https://getbootstrap.com/)
-- [Handlebars](http://handlebarsjs.com/)
-- [Panini](https://github.com/zurb/panini) 
-- [Gulp](https://gulpjs.org/getting-started)
+<h4 align="center">BANNER</h4>
+
+<p align="center">
+
+  <img src="https://user-images.githubusercontent.com/9413601/123897812-ae729a00-d996-11eb-96b8-b76ba926f555.gif" alt="demo-screenshot" width="100%"/>
+
+</p>
+
+## Features
+
+- Support beautiful **Night Mode**.
+- Modern responsive web design.
+- Full layouts `home`, `post`, `tags`, `archive` and `about`.
+- Uses font awesome 5 for icons.
+- Beautiful page banner with image and video.
+- Beautiful Syntax Highlight using [highlight.js][highlight-js].
+- Beautiful image gallery previewer using [PhotoSwipe 5][photoswipe-5].
+- RSS support using [Jekyll Feed][jekyll-feed] gem.
+- Optimized for search engines using [Jekyll Seo Tag][jekyll-seo-tag] gem.
+- Sitemap support using [Jekyll Sitemap][jekyll-sitemap] gem.
+- Complex and flexible table support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- MathJAX and LaTeX optional support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Media (Youtube, Spotify, etc.) support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Diagram (PlantUML, Mermaid) support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Google Translation support.
+- New post tag support.
+- Pin post tag support.
+
+Also, visit the [Live Demo][yat-live-demo] site for the theme.
+
+## Installation
+
+There are three ways to install:
+
+- As a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
+- As a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible).
+- Forking/directly copying all of the theme files into your project.
+
+### Gem-based Theme Method
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "jekyll-theme-yat"
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: jekyll-theme-yat
+```
+
+And then execute:
+
+```bash
+$ bundle
+```
+
+Or install it yourself as:
+
+```bash
+$ gem install jekyll-theme-yat
+```
+
+### Remote Theme Method with GitHub Pages
+
+Remote themes are similar to Gem-based themes, but do not require `Gemfile` changes or whitelisting making them ideal for sites hosted with GitHub Pages.
+
+To install:
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "github-pages", group: :jekyll_plugins
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
+remote_theme: "jeffreytse/jekyll-theme-yat"
+```
+
+And then execute:
+
+```bash
+$ bundle
+```
+
+### Forking/Cloning the project
+
+You need to update the option of github workflow file `.github/workflows/build-jekyll.yml`, especially to ensure the value of `jekyll_baseurl` is correct.
+
+### GitHub Pages without limitation
+
+GitHub Pages runs in `safe` mode and only allows [a set of whitelisted plugins/themes](https://pages.github.com/versions/). **In other words, the third-party gems will not work normally**.
+
+To use the third-party gem in GitHub Pages without limitation:
+
+Here is a GitHub Action named [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) for Jekyll site deployment conveniently. 👍
+
+## Usage
+
+Add or update your available layouts, includes, sass and/or assets.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_data`, `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-yat.gemspec` accordingly.
+
+## Contributing
+
+Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
+
+You can start by [opening an issue](https://github.com/jeffreytse/jekyll-theme-yat/issues/new) describing the problem that you're looking to resolve and we'll go from there.
+
+## License
+
+This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © JeffreyTse.
+
+<!-- External links -->
+
+[jekyll]: https://jekyllrb.com/
+[yat-git-repo]: https://github.com/jeffreytse/jekyll-theme-yat/
+[yat-live-demo]: https://jeffreytse.github.io/jekyll-theme-yat/
+[jekyll-spaceship]: https://github.com/jeffreytse/jekyll-spaceship
+[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
+[jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
+[jekyll-feed]: https://github.com/jekyll/jekyll-feed
+[highlight-js]: https://github.com/highlightjs/highlight.js
+[photoswipe-5]: https://photoswipe.com/
