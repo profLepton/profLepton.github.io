@@ -3,6 +3,9 @@ layout: post
 title: "A better Attention GNN"
 categories: misc
 ---
+
+github link : https://github.com/profLepton/TransformerGNN/
+
 So while paying "attention" ;) to my Graph machine learning class, I came up with a couple of ideas that sounded fun. 
 
 The first of these ideas is the Attention based Graph neural network. The most popular version of Attention based Graph neural networks, the GAT (Graph Attention Network), works like this. Get the node states of a batch of neighbors. Let them attend to each other, and then have them output the updated node vectors. 
