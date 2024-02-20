@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A better Attention GNN"
-categories: misc
+categories: gnn transformer
 ---
 
 github link : https://github.com/profLepton/TransformerGNN/
@@ -27,7 +27,7 @@ Take all of the nodes, have them attend to every other node at the same time! Wo
 
 After just a single pass of this layer, you have every node having communicated to every other node, with no need for sampling, batching etc. Most GPU's can handle sizes of tens of thousands of nodes in a single pass like this. At most you would need 10 splits for datasets in the order of millions, and there are many ways to overcome this e.g using multiple gpus.
 
-# What if you need more communicatoin? Need nodes to communicated on the second order?
+# What if you need more communication? Need nodes to communicated on the second order?
 
 So the simple way is to repeat the layer again. Having two layers masked by the adjacency matrix allows for second order communication.
 This is pretty cool if I say so myself. 
